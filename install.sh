@@ -2,7 +2,7 @@
 
 clear
 echo "*******************************************"
-echo "*             Выберите действие           *"
+echo "*            Выберите действие            *"
 echo "*******************************************"
 echo 
 echo " 1.  Infinite-bommer Arm64 с tor "
@@ -15,7 +15,7 @@ echo " 7.  Infinite-bommer x64 с tor "
 echo " 8.  Infinite-bommer x64  "
 echo " 9.  Узнать архитектуру вашего процессора "
 echo " 11. Удалить Infinite-bommer полностью "
-echo " 0. Выход "
+echo " 0.  Выход "
 echo ""
 echo " Ваш выбор:  "
 read number
@@ -80,7 +80,7 @@ case $number in
 	exit
 	;;
 	11)	
-    rm -rf /data/data/com.termux/files/usr/bin/
+    rm -rf /data/data/com.termux/files/usr/bin/tor
     rm -f /data/data/com.termux/files/usr/bin/infinite
     rm -f /data/data/com.termux/files/usr/bin/services.yaml 
     rm -rf ~/infibomb
