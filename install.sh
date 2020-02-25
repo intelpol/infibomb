@@ -17,7 +17,7 @@ echo " 9.  Узнать архитектуру вашего процессора
 echo " 11. Удалить Infinite-bommer полностью "
 echo " 0. Выход "
 echo ""
-echo "Ваш выбор:  "
+echo " Ваш выбор:  "
 read number
 case $number in
     1)
