@@ -75,6 +75,8 @@ case $number in
     9)
      cd /
      head proc/cpuinfo
+     read -s -n1 -p "Для продолжения нажмите любую клавишу... "
+     sh infibomb/install.sh
     ;;
     0)
      exit
@@ -98,9 +100,9 @@ case $number in
                 rm -rf ~/infibomb
                 echo " Удалено "
      else
-       echo "Отмена"
-       sleep 3
-       sh infibomb/install.sh
+        echo "Отмена"
+        sleep 3
+        sh infibomb/install.sh
             fi
      fi
     ;;
