@@ -80,15 +80,24 @@ case $number in
      exit
     ;;
     11)	
-     echo " Удалить Infinite-bomber c вашего устройства - y/n"
+     echo " Удалить Infinite-bomber c вашего устройства - y/n:"
      read choice
      if [ $choice = "y" ]
      then
-      rm -rf /data/data/com.termux/files/usr/bin/tor
-      rm -f /data/data/com.termux/files/usr/bin/infinite
-      rm -f /data/data/com.termux/files/usr/bin/services.yaml 
-      rm -rf ~/infibomb
-      echo " Удалено "
+        rm -rf /data/data/com.termux/files/usr/bin/tor
+        rm -f /data/data/com.termux/files/usr/bin/infinite
+        rm -f /data/data/com.termux/files/usr/bin/services.yaml 
+        rm -rf ~/infibomb
+        echo " Удалено "
+         else 
+            if [ $choice = "Y" ]
+            then
+                rm -rf /data/data/com.termux/files/usr/bin/tor
+                rm -f /data/data/com.termux/files/usr/bin/infinite
+                rm -f /data/data/com.termux/files/usr/bin/services.yaml 
+                rm -rf ~/infibomb
+                echo " Удалено "
+            fi
      else
       echo "Отмена"
       sleep 3
@@ -97,6 +106,8 @@ case $number in
     ;;
     *)
       echo "Некорректный ввод"
+      sleep 3
+      sh infibomb/install.sh
  esac
                                 
                                     
