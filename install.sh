@@ -91,7 +91,8 @@ case $number in
       echo " Удалено "
      else
       echo "Отмена"
-      sh ~infibomb/install.sh
+      sleep 3
+      sh infibomb/install.sh
      fi
     ;;
     *)
