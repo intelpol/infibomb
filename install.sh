@@ -97,11 +97,11 @@ case $number in
                 rm -f /data/data/com.termux/files/usr/bin/services.yaml 
                 rm -rf ~/infibomb
                 echo " Удалено "
-            fi
      else
-      echo "Отмена"
-      sleep 3
-      sh infibomb/install.sh
+       echo "Отмена"
+       sleep 3
+       sh infibomb/install.sh
+            fi
      fi
     ;;
     *)
