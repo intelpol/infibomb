@@ -21,72 +21,72 @@ echo " Ваш выбор:  "
 read number
 case $number in
     1)
-    cp -r ~/infibomb/IB_arm64tor/tor /data/data/com.termux/files/usr/bin/
-    cp ~/infibomb/IB_arm64tor/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
-    cp ~/infibomb/IB_arm64tor/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
-    chmod 777 /data/data/com.termux/files/usr/bin/infinite   
-    infinite
+     cp -r ~/infibomb/IB_arm64tor/tor /data/data/com.termux/files/usr/bin/
+     cp ~/infibomb/IB_arm64tor/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
+     cp ~/infibomb/IB_arm64tor/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
+     chmod 777 /data/data/com.termux/files/usr/bin/infinite   
+     infinite
     ;;
     2)
-    cp ~/infibomb/IB_arm64/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
-    cp ~/infibomb/IB_arm64/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
-    chmod 777 /data/data/com.termux/files/usr/bin/infinite   
-    infinite
+     cp ~/infibomb/IB_arm64/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
+     cp ~/infibomb/IB_arm64/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
+     chmod 777 /data/data/com.termux/files/usr/bin/infinite   
+     infinite
     ;;
     3)
-    cp -r ~/infibomb/IB_armtor/tor /data/data/com.termux/files/usr/bin/
-    cp ~/infibomb/IB_armtor/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
-    cp ~/infibomb/IB_armtor/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
-    chmod 777 /data/data/com.termux/files/usr/bin/infinite   
-    infinite
+     cp -r ~/infibomb/IB_armtor/tor /data/data/com.termux/files/usr/bin/
+     cp ~/infibomb/IB_armtor/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
+     cp ~/infibomb/IB_armtor/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
+     chmod 777 /data/data/com.termux/files/usr/bin/infinite   
+     infinite
     ;;
     4)  
-    cp ~/infibomb/IB_arm/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
-    cp ~/infibomb/IB_arm/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
-    chmod 777 /data/data/com.termux/files/usr/bin/infinite   
-    infinite
+     cp ~/infibomb/IB_arm/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
+     cp ~/infibomb/IB_arm/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
+     chmod 777 /data/data/com.termux/files/usr/bin/infinite   
+     infinite
     ;;
     5)
-    cp -r ~/infibomb/IB_x86tor/tor /data/data/com.termux/files/usr/bin/
-    cp ~/infibomb/IB_x86tor/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
-    cp ~/infibomb/IB_x86tor/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
-    chmod 777 /data/data/com.termux/files/usr/bin/infinite   
-    infinite
+     cp -r ~/infibomb/IB_x86tor/tor /data/data/com.termux/files/usr/bin/
+     cp ~/infibomb/IB_x86tor/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
+     cp ~/infibomb/IB_x86tor/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
+     chmod 777 /data/data/com.termux/files/usr/bin/infinite   
+     infinite
     ;;
     6)
-    cp ~/infibomb/IB_x86/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
-    cp ~/infibomb/IB_x86/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
-    chmod 777 /data/data/com.termux/files/usr/bin/infinite   
-    infinite
+     cp ~/infibomb/IB_x86/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
+     cp ~/infibomb/IB_x86/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
+     chmod 777 /data/data/com.termux/files/usr/bin/infinite   
+     infinite
     ;;
     7)
-    cp -r ~/infibomb/IB_x64tor/tor /data/data/com.termux/files/usr/bin/
-    cp ~/infibomb/IB_x64tor/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
-    cp ~/infibomb/IB_x64tor/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
-    chmod 777 /data/data/com.termux/files/usr/bin/infinite   
-    infinite
+     cp -r ~/infibomb/IB_x64tor/tor /data/data/com.termux/files/usr/bin/
+     cp ~/infibomb/IB_x64tor/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
+     cp ~/infibomb/IB_x64tor/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
+     chmod 777 /data/data/com.termux/files/usr/bin/infinite   
+     infinite
     ;;
     8)
-    cp ~/infibomb/IB_x64/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
-    cp ~/infibomb/IB_x64/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
-    chmod 777 /data/data/com.termux/files/usr/bin/infinite   
-    infinite
+     cp ~/infibomb/IB_x64/infinite-bomber /data/data/com.termux/files/usr/bin/infinite
+     cp ~/infibomb/IB_x64/services.yaml /data/data/com.termux/files/usr/bin/services.yaml
+     chmod 777 /data/data/com.termux/files/usr/bin/infinite   
+     infinite
     ;;
     9)
-   	cd /
-	head proc/cpuinfo
+     cd /
+     head proc/cpuinfo
     ;;
     0)
-	exit
-	;;
-	11)	
-    rm -rf /data/data/com.termux/files/usr/bin/tor
-    rm -f /data/data/com.termux/files/usr/bin/infinite
-    rm -f /data/data/com.termux/files/usr/bin/services.yaml 
-    rm -rf ~/infibomb
+     exit
+    ;;
+    11)	
+     rm -rf /data/data/com.termux/files/usr/bin/tor
+     rm -f /data/data/com.termux/files/usr/bin/infinite
+     rm -f /data/data/com.termux/files/usr/bin/services.yaml 
+     rm -rf ~/infibomb
     ;;
     *)
-		echo "Некорректный ввод"
-	esac
+      echo "Некорректный ввод"
+ esac
                                 
                                     
