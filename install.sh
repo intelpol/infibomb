@@ -82,7 +82,7 @@ case $number in
     11)	
      echo " Удалить Infinite-bomber c вашего устройства - y/n"
      read choice
-     if [ $choise = "y" ]
+     if [ $choice = "y" ]
      then
       rm -rf /data/data/com.termux/files/usr/bin/tor
       rm -f /data/data/com.termux/files/usr/bin/infinite
