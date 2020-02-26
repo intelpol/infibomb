@@ -75,7 +75,8 @@ case $number in
     9)
      cd /
      head proc/cpuinfo
-     read -p "Для продолжения нажмите ENTER..."
+     echo " Возврат в меню через 5 сек."
+     sleep 5
      sh /data/data/com.termux/files/home/infibomb/install.sh
     ;;
     0)
