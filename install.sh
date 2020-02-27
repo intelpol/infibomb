@@ -103,7 +103,7 @@ case $number in
      else
         echo "Отмена"
         sleep 3
-        sh infibomb/install.sh
+        sh /data/data/com.termux/files/home/infibomb/install.sh
             fi
      fi
     ;;
