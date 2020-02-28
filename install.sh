@@ -18,6 +18,7 @@ echo " 11. Удалить Infinite-bommer полностью "
 echo " 0.  Выход "
 echo ""
 echo " Дальнейший запуск командой infinite в терминале..."
+echo " Вызов меню установки: sh infibomb/install.sh "  
 echo ""
 echo " Ваш выбор:  "
 read number
