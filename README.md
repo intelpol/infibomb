@@ -8,5 +8,7 @@
 • <code>git clone https://github.com//intelpol/infibomb</code><br>
 • <code>sh infibomb/install.sh</code><br>
 
+![PATH](img/img.png)
+
 # Sourse
  https://codeby.net/threads/infinite-bomber-sms-call-flud.68693
